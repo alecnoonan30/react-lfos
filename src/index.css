@@ -1,0 +1,225 @@
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+
+@media only screen and (min-width: 601px) {
+  .homeLogo {
+    height: 25%;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .homeLogo {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+
+@media only screen and (min-width: 601px) {
+  .click {
+    height: 15%;
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .click {
+    padding-top: 20%;
+    height: 45%;
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .click2 {
+    height: 15%;
+    width: 15%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .click2 {
+    height: 100px;
+    width: 25%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .click3 {
+    height: 15%;
+    width: 15%;
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .click3 {
+    height: 100px;
+    width: 25%;
+    padding-left: 10%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .homevideo {
+    height: 85%;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .homevideo {
+    padding-top: 25%;
+    height: max-content;
+    width: 105%;
+  }
+}
+
+
+@media only screen and (min-width: 601px) {
+  .thinner {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wider {
+    color: white;
+  }
+}
+
+.click:hover {
+  opacity: 0.4;
+  transition-duration: 0.4s;
+}
+
+
+input[type=text]:focus {
+  outline-color: white;
+  border: 2px solid black;
+}
+
+input[type=email]:focus {
+  border: 2px solid black;
+}
+
+textarea:focus {
+  border: 2px solid black;
+}
+
+input[type=submit]:hover {
+  opacity: 0.4;
+}
+
+@media only screen and (min-width: 601px) {
+  .backpic {
+    background-image: url("/src/srcimages/vinyl.png");
+    background-size: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.99;
+    padding-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .backpic {
+  background-image: url("/src/srcimages/vinyl.png");
+  background-size: 92%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.99;
+  padding-top: 20px;
+  }
+}
+
+.alerttext {
+  color: black;
+}
+
+.containsocials {
+  padding-top:7%;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.thingsfont, .contactfont, .card-title, .card-text, .shibcapheader, .shibcapdesc, .thingsinfo1, .thingsinfo2 {
+  font-family: 'Arimo', sans-serif;
+}
+
+.card-title, .shibcapheader {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 601px) {
+  .arrow {
+    height: 5%;
+    width: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .arrow {
+    height: 12%;
+    width: 12%;
+    padding-bottom: 7%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .contheader {
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contheader {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shibcapheader {
+    padding-top: 4%;
+  }
+}
+
+
+.arrow:hover {
+  opacity: 0.7
+}
+
+.tagaudio {
+  display: block;
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
