@@ -208,6 +208,8 @@ input[type=submit]:hover {
   height: auto;
   display: flex;
   justify-content: center;
+  background-color: white;
+  border: none;
 }
 
 
