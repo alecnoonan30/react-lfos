@@ -32,7 +32,7 @@ class AudioButton extends Component {
   
     render() {
       return (
-            <a className="tagaudio" onClick={this.playPause}>
+            <a href="" className="tagaudio" onClick={this.playPause}>
               <Image className="click" fluid src="./images/ArtboardSound2.png" alt="" />
             </a>
       );
