@@ -8,7 +8,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 export default function Info() {
   return (
-      <Container fluid className="justify-content-center">
+      <Container className="justify-content-center">
         <Row className="h-50 pb-5">
             <Col className="d-flex justify-content-center">
             <Card>
