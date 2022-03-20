@@ -31,6 +31,7 @@ html, #root, body {
 
 @media only screen and (max-width: 900px) {
   .click {
+    padding-top: 45%;
     height: 40%;
     width: 40%;
   }

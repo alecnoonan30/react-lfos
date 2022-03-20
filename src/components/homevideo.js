@@ -6,7 +6,7 @@ import LFOSVIDEO from "../homeVid/LFOSVIDEO.mp4";
 
 export default function Video() {
   return (
-    <video className="homevideo" autoPlay loop muted defaultMuted>
+    <video className="homevideo" autoPlay loop muted>
       <source src={LFOSVIDEO} type="video/mp4"></source>
     </video>
   );
