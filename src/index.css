@@ -4,6 +4,7 @@ body {
 
 html, #root, body {
   background-color: white;
+  background: none;
 }
 
 @media only screen and (min-width: 601px) {
@@ -76,7 +77,7 @@ html, #root, body {
 
 @media only screen and (max-width: 600px) {
   .homevideo {
-    height: 25%;
+    height: fit-content;
   }
 }
 
