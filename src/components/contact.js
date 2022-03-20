@@ -42,19 +42,19 @@ export default function ContactUs() {
             <h2 className="contheader">Contact Us</h2>
                 <form onSubmit={sendEmail}>
                     <Row>
-                        <Col className="col-8 pt-4 form-group mx-auto">
+                        <Col className="col-9 pt-4 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name" />
                         </Col>
-                        <Col className="col-8 form-group pt-2 mx-auto">
+                        <Col className="col-9 form-group pt-2 mx-auto">
                             <input type="email" className="form-control" placeholder="Email Address" name="email" />
                         </Col>
-                        <Col className="col-8 form-group pt-2 mx-auto">
+                        <Col className="col-9 form-group pt-2 mx-auto">
                             <input type="text" className="form-control" placeholder="Subject" name="subject" />
                         </Col>
-                        <Col className="col-8 form-group pt-3 mx-auto">
+                        <Col className="col-9 form-group pt-3 mx-auto">
                             <textarea className="form-control" id="" cols="10" rows="8" placeholder="Your Inquiry" name="message"></textarea>
                         </Col>
-                        <Col className="col-8 pt-3 pb-4 mx-auto">
+                        <Col className="col-9 pt-3 pb-4 mx-auto">
                             <input type="submit" className="btn btn-info form-control" value="Submit"></input>
                         </Col>
                     </Row>
