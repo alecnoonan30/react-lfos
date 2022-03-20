@@ -31,7 +31,7 @@ html, #root, body {
 
 @media only screen and (max-width: 900px) {
   .click {
-    padding-top: 45%;
+    padding-top: 35%;
     height: 40%;
     width: 40%;
   }
@@ -99,7 +99,7 @@ html, #root, body {
 
 .click:hover {
   opacity: 0.4;
-  transition-duration: 0.4s;
+  transition-duration: 0.5s;
 }
 
 
