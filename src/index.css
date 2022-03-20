@@ -185,12 +185,14 @@ input[type=submit]:hover {
 @media only screen and (min-width: 601px) {
   .contheader {
     padding-bottom: 5%;
+    font-family: 'Arimo', sans-serif;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .contheader {
     color: black;
+    font-family: 'Arimo', sans-serif;
   }
 }
 
