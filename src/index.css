@@ -1,9 +1,8 @@
 body {
   font-family: 'Arimo', sans-serif;
-  background-color: white;
 }
 
-html, body {
+html, #root, body {
   background-color: white;
 }
 
@@ -77,7 +76,7 @@ html, body {
 
 @media only screen and (max-width: 600px) {
   .homevideo {
-    height: max-content;
+    height: 25%;
   }
 }
 
