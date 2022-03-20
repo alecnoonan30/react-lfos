@@ -81,6 +81,7 @@ html, #root, body {
   .homevideo {
     width: 100%;
     height: 100%;
+    padding-top: 15%;
   }
 }
 
