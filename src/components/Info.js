@@ -11,9 +11,7 @@ export default function Info() {
       <Container className="justify-content-center">
         <Row className="h-50 pb-5">
             <Col className="d-flex justify-content-center">
-            <Card>
                 <Video />   
-            </Card> 
             </Col>     
         </Row>
         <br></br>
