@@ -4,7 +4,7 @@ import "../index.css";
 import "../Info.css";
 import Video from "./homevideo";
 import AudioButton from "./audio";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Info() {
   return (
