@@ -79,7 +79,7 @@ html, #root, body {
 
 @media only screen and (max-width: 600px) {
   .homevideo {
-    width: 100%;
+    width: 105%;
     height: 100%;
     padding-top: 15%;
   }
