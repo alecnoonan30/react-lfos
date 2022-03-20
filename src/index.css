@@ -32,6 +32,8 @@ html, #root, body {
 @media only screen and (max-width: 900px) {
   .click {
     opacity: 0%;
+    height: 0%;
+    width: 0%;
   }
 }
 
