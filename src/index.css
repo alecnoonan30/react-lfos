@@ -133,7 +133,7 @@ input[type=submit]:hover {
 @media only screen and (max-width: 600px) {
   .backpic {
   background-image: url("/src/srcimages/vinyl.png");
-  background-size: 92%;
+  background-size: 0%;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.99;
@@ -189,7 +189,7 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 600px) {
   .contheader {
-    color: white;
+    color: black;
   }
 }
 
