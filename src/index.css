@@ -104,15 +104,17 @@ html, #root, body {
 
 
 input[type=text]:focus {
-  outline-color: white;
+  box-shadow: none;
   border: 2px solid black;
 }
 
 input[type=email]:focus {
+  box-shadow: none;
   border: 2px solid black;
 }
 
-textarea:focus {
+textarea#tarea:focus {
+  box-shadow: none;
   border: 2px solid black;
 }
 
