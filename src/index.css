@@ -218,10 +218,23 @@ input[type=submit]:hover {
   border: none;
 }
 
+input[type="text"] {
 
+  background-color : #fafafa;
 
+}
 
+input[type="email"] {
+  background-color : #fafafa;
+}
 
+.form-control {
+  background-color : #fafafa;
+}
+
+textarea#tarea {
+  background-color : #fafafa;
+}
 
 
 

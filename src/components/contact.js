@@ -52,10 +52,10 @@ export default function ContactUs() {
                             <input type="text" className="form-control" placeholder="Subject" name="subject" />
                         </Col>
                         <Col className="col-9 form-group pt-3 mx-auto">
-                            <textarea className="form-control" id="" cols="10" rows="8" placeholder="Your Inquiry" name="message"></textarea>
+                            <textarea className="form-control" id="tarea" cols="10" rows="8" placeholder="Your Inquiry" name="message"></textarea>
                         </Col>
                         <Col className="col-9 pt-3 pb-4 mx-auto">
-                            <input type="submit" className="btn btn-info form-control" value="Submit"></input>
+                            <input type="submit" className="btn btn-secondary form-control" value="Submit"></input>
                         </Col>
                     </Row>
                     {result ? <Result /> : null} 
