@@ -52,7 +52,7 @@ export default function SIS() {
         <div className="col-sm-6 d-flex align-items-center">
           <Row>
             <h4 className="shibcapheader">
-              "Somewhere in Shibuya" Hat, Black/White
+              "Somewhere in Shibuya" Hat
             </h4>
             <p className="shibcapdesc">
               I made a hat inspired by Tokyo's club scene in the year 2021.
