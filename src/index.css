@@ -80,8 +80,8 @@ html, #root, body {
 @media only screen and (max-width: 600px) {
   .homevideo {
     width: 105%;
-    height: 100%;
-    padding-top: 15%;
+    height: 150%;
+    padding-top: 5%;
   }
 }
 
@@ -97,9 +97,11 @@ html, #root, body {
   }
 }
 
-.click:hover {
-  opacity: 0.4;
-  transition-duration: 0.5s;
+@media only screen and (min-width: 900px) {
+  .click:hover {
+    opacity: 0.4;
+    transition-duration: 0.5s;
+  }
 }
 
 
