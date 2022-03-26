@@ -223,6 +223,12 @@ input[type=submit]:hover {
   border: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .tagaudio {
+    padding-top: 20%;
+  }
+}
+
 input[type="text"] {
 
   background-color : #fafafa;
